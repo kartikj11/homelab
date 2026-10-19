@@ -1,0 +1,10 @@
+# Jellyfin runtime config, transcode cache, and database
+config/
+transcodes/
+data/
+cache/
+metadata/
+plugins/
+log/
+*.db*
+*.log

@@ -1,0 +1,26 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Nextcloud & NPM persistent runtime directories
+npm/
+data/
+letsencrypt/
+ncdata/
+nextcloud/
+
+# Immich uploads and databases
+immich/data/
+immich/library/
+immich/pgdata/
+immich/model-cache/
+immich/.env
+!immich/.env.example
+
+# Databases & logs
+*.db*
+*.sqlite*
+logs/
+*.log
+*.log.*

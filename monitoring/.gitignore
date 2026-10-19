@@ -1,0 +1,20 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Prometheus, Grafana, and InfluxDB runtime storage
+prom_data/
+grafana_data/
+influxdb2_data/
+data/
+influxdb2/data/
+influxdb2/engine/
+influxdb2/*.bolt
+
+# Logs and runtime databases
+logs/
+*.log
+*.log.*
+*.db*
+*.sqlite*

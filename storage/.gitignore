@@ -1,0 +1,15 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VM disk images, ISOs, and backup dumps
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.tar*
+backups/
+dumps/
+logs/
+*.log

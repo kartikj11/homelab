@@ -1,0 +1,12 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# NetBird client state, tokens, and configuration
+netbird/
+*.key
+*.token
+logs/
+*.log
+*.log.*

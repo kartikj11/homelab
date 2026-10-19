@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Home Assistant sensitive credentials
+secrets.yaml
+!secrets.yaml.example
+
+# Home Assistant SQLite database, internal storage, backups, and caches
+home-assistant_v2.db*
+.storage/
+.cloud/
+backups/
+tts/
+deps/
+custom_components/*/
+!custom_components/.gitkeep
+
+# Logs
+home-assistant.log*
+*.log
+*.log.*

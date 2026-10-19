@@ -1,0 +1,19 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Frigate clips, recordings, models, and cache
+config/
+storage/
+media/
+recordings/
+clips/
+cache/
+
+# Databases & logs
+*.db*
+*.sqlite*
+logs/
+*.log
+*.log.*

@@ -1,0 +1,7 @@
+# Plex Media Server runtime data and preferences
+Library/
+config/
+transcode/
+*.xml
+*.db*
+*.log

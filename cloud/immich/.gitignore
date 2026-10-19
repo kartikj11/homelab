@@ -1,0 +1,21 @@
+# Immich environment files
+.env
+.env.*
+!.env.example
+
+# Uploads, photos, PostgreSQL database, and ML model cache
+data/
+library/
+upload/
+profile/
+thumbs/
+encoded-video/
+pgdata/
+postgres/
+model-cache/
+cache/
+
+# Databases & logs
+*.db*
+logs/
+*.log

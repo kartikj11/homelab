@@ -1,4 +1,43 @@
+# Operating System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary & Cache files
 .temp/
+tmp/
+temp/
+*.tmp
+
+# Environment and Secrets (always keep .env.example)
 .env
+.env.*
 !.env.example
+*.key
+*.pem
+*.cert
+secrets.yaml
+!secrets.yaml.example
+
+# Common Database runtime files & WALs
+*.db-shm
+*.db-wal
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Common Logs
+*.log
+*.log.*
+*.log.gz
+logs/

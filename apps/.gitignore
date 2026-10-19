@@ -1,0 +1,13 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Runtime application data & logs
+data/
+config/
+logs/
+*.log
+*.log.*
+*.db*
+*.sqlite*

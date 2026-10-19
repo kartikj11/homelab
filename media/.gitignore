@@ -1,0 +1,42 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Media & Download data
+data/
+downloads/
+
+# Service runtime directories & databases
+bazarr/
+caddy/
+gluetun/
+lidarr/
+nzbget/
+prowlarr/
+qbittorrent/
+radarr/
+seerr/
+sonarr/
+tautulli/
+
+# Media server runtime data
+jellyfin/config/
+plex/Library/
+plex/config/
+plex/*.xml
+plex/*.db*
+
+# Databases, process locks, and caches
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+*.pid
+*.lock
+logs/
+*.log
+*.log.*
+*.log.gz
+cache/
+MediaCover/

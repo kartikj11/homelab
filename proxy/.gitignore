@@ -1,0 +1,14 @@
+# Environment files & tokens
+.env
+.env.*
+!.env.example
+
+# Nginx Proxy Manager persistent storage & SSL certificates
+data/
+letsencrypt/
+netbird-client/
+
+# Logs
+logs/
+*.log
+*.log.*
